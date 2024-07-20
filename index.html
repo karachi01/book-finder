@@ -1,3 +1,4 @@
+<html lang="en">
 <head>
     <link rel="icon" href="" type="image/png">
     <meta charset="utf-8">
@@ -10,9 +11,11 @@
 
     <script src="script.js"></script>
 
-    <div>
-      <a href="index.html" class="nav-link" title="Evrima">Evrima</a>
-      <a href="about.html" class="nav-link" title="About">About</a>
+    <div class="nav-bar">
+      <a href="index.html" class="nav-link">Evrima</a>
+      <div class="nav-right">
+        <a href="about.html" class="nav-link">About</a>
+      </div>
     </div>
 
 
@@ -30,35 +33,76 @@
     <button id="search-button">Search</button>
     </div>
 
-    <div class="row featurette">
-        <div class="col-md-5 order-md-2">
-          <h2 class="recommendations">Find books based on your preferences and genre</h2>
-          <p>Discover your next favorite read by exploring a curated selection of books tailored to your preferences and favorite genres.</p>
-          <div class="genre">
-            <select id="pick-genre">
-              <option value="">Select a genre</option>
-              <option value="adventure">Adventure</option>
-              <option value="art">Art</option>
-              <option value="crime">Crime</option>
-              <option value="drama">Drama</option>
-              <option value="fantasy">Fantasy</option>
-              <option value="fiction">Fiction</option>
-              <option value="graphic novels">Graphic Novels</option>
-              <option value="historical fiction">Historical Fiction</option>
-              <option value="history">History</option>
-              <option value="horror">Horror</option>
-              <option value="non-fiction">Non-fiction</option>
-              <option value="philosophy">Philosophy</option>
-              <option value="young adult">Young Adult</option>
-              <option value="romance">Romance</option>
-              <option value="science fiction">Science fiction</option>
-              <option value="thriller">Thriller</option>
-              <option value="poetry">Poetry</option>
-            </select>
+   
+  
+      <hr class="featurette-divider">
+      <div class="row featurette">
+          <div class="col-md-5 order-md-2">
+            <h2 class="recommendations">Find books based on your preferences and genre</h2>
+            <p>Discover your next favorite read by exploring a curated selection of books tailored to your preferences and favorite genres.</p>
+            <div class="genre">
+              <select id="pick-genre">
+                <option value="">Select a genre</option>
+                <option value="adventure">Adventure</option>
+                <option value="art">Art</option>
+                <option value="crime">Crime</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="fiction">Fiction</option>
+                <option value="graphic novels">Graphic Novels</option>
+                <option value="historical fiction">Historical Fiction</option>
+                <option value="history">History</option>
+                <option value="horror">Horror</option>
+                <option value="non-fiction">Non-fiction</option>
+                <option value="philosophy">Philosophy</option>
+                <option value="young adult">Young Adult</option>
+                <option value="romance">Romance</option>
+                <option value="science fiction">Science fiction</option>
+                <option value="thriller">Thriller</option>
+                <option value="poetry">Poetry</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-5 order-md-2">
+            <div class="black-box featurette-image"></div>
+          </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-container" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Explore our collection of featured books, including bestsellers, award winners, and seasonal picks.</p>
+              <button id="card-button">Explore More</button>
+            </div>
           </div>
         </div>
-        <div class="col-md-5 order-md-2">
-          <div class="black-box featurette-image"></div>
+        <div class="col-md-4">
+          <div class="card-container" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Explore our collection of featured books, including bestsellers, award winners, and seasonal picks.</p>
+              <button id="card-button">Explore More</button>
+            </div>
+          </div>
         </div>
-    </div>
-  </body>
+        <div class="col-md-4">
+          <div class="card-container" style="width: 18rem;">
+            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <p class="card-text">Explore our collection of featured books, including bestsellers, award winners, and seasonal picks.</p>
+              <button id="card-button">Explore More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+    </body>
+    </html>
